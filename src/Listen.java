@@ -10,4 +10,12 @@ public class Music extends TimerTask implements JMC {
 
     private static int note;
 
+    @Override
+    public void run() {
+        try {
+                for (int i = 0; i < SONG.length; i++) {
+                }
+        } catch(Exception ex) {
+        }
+    }
 }
