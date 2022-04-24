@@ -14,6 +14,8 @@ public class Music extends TimerTask implements JMC {
     public void run() {
         try {
                 for (int i = 0; i < SONG.length; i++) {
+                    note = SONG[i];
+                    Play.midi(new Note(note, 0.01));
                 }
         } catch(Exception ex) {
         }
