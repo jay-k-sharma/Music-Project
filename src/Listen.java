@@ -18,6 +18,7 @@ public class Music extends TimerTask implements JMC {
                     Play.midi(new Note(note, 0.01));
                 }
         } catch(Exception ex) {
+            System.out.println("Error!");;
         }
     }
 }
